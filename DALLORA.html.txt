@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DALLORA - Beauty That Grows With You</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<h1>DALLORA</h1>
+<nav>
+<u1>
+<li><a
+href="#home">Home</a></li>
+<li><a href="#"
+id="cart-btn">cart (<span
+id="cart-count">0</span>)</a></li>
+<link rel="stylesheet" href="styles.css">
+
+</ul>
+</nav>
+</header>
+<section id="home">
+<h2>Beauty That Grows With You</h2>
+<p>Explore our range of lip glosses.</p>
+<a href="#products"
+class="btn">Shop Now</a>
+</section>
+
+<section id="products">
+<h2>Our products</h2>
+<div class="products">
+<img src="DALLORA/lipgloss.jpg"
+alt="Our Collection">
+<h3>Our Collection</h3>
+<p>DALLORAs special collection of nude colors with different colored tubes.</p>
+<button
+class="add-to-cart"
+data-name="Our Collection"
+data-price="50">Add to cart</button>
+</div>
+</section>
+
+<section id="cart">
+<h2>Your Cart</h2>
+<ul id="cart-items"></ul>
+<p>Total: egp<span
+id="cart-total">0.00</span></p>
+<button
+id="checkout-btn">Checkout</button>
+<form id="Checkout-Form">
+<input type="text"
+id="name" placeholder="Your Name" required>
+<input type="text"
+id="grade" placeholder="Your Grade" required>
+<input type="text"
+id="class name" placeholder="Your Class" required>
+<button
+type="submit">Place Order</button>
+</form>
+</section>
+<footer>
+<p>DALLORA-All rights reserved</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
